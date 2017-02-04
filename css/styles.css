@@ -13,8 +13,54 @@ FONTS AND COLORS REFERENCE
 /*BLACK: #000000; & WHITE: #ffffff;*/
 
 /*********************************
-CONTACT PAGE RESPONSIVE MEDIA QUERIES
+MEDIA QUERIES
 *********************************/
+
+@media (min-width: 360px) {
+	header {
+		background-position: center;
+	}
+}
+@media (min-width: 700px) {
+	header {
+		background-position: center;
+	}
+}
+
+/*********************************
+GLOBAL STUFF
+*********************************/
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: .85em;
+	color: #cac7b0;
+	text-align: center;
+	line-height: 1.5em;
+}
+h1 {
+	font-family: 'Damion', cursive;
+	color: #840705;
+	text-align: center;
+}
+body {
+	background-color: #f8f3dd;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-image: url(../images/BOWLING-CROP.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+	margin-bottom: 25px;
+}
+h2 {
+	text-align: center;
+	font-family: 'Damion', cursive;
+}
 
 /*********************************
 CONTACT PAGE CSS
@@ -24,8 +70,7 @@ CONTACT PAGE CSS
 	width: 100%;
 	background-color: white;
 }
-
-header.contact-header {
+.contact-header {
 	width: 60%;
 	margin: 0 auto;
 }
@@ -92,117 +137,22 @@ address {
 	display: block;
 	margin: auto;
 }
-
-
-/*BLACK: #000000; & WHITE: #ffffff;*/
-
-/*********************************
-CONTACT PAGE RESPONSIVE MEDIA QUERIES
-*********************************/
-
-/*********************************
-CONTACT PAGE CSS
-*********************************/
-
-.contact-wrapper {
-	width: 100%;
-	background-color: white;
-}
-
-header.contact-header {
+.section-header {
 	width: 60%;
 	margin: 0 auto;
+	display: block;
 }
-.flex-items {
+.new-flex-items {
 	width: 100%;
 	display: inline-flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 }
-.contact-line {
-	width: 200px;
-	height: 4px;
-	display: inline-block;
-	background-color: #840705;
-}
-.section-header h2 {
-	display: inline-block;
-	align-self: center;
-	margin: 15px;
-	align-text: center;
-}
-
-.contact-body {
-	width: 60%;
-	margin: 0 auto;
-	padding-bottom: 30px;
-}
-.contact-body h3 {
-	font-family: 'Roboto', sans-serif;
-}
-address {
-	font-family: 'Roboto', sans-serif;
-	margin-left: 10%;
-}
-.contact-body a {
-	text-decoration: none;
-	font-family: 'Roboto', sans-serif;
-	color: black;
-}
-.contact-body a:active:focus:hover {
-	text-decoration: none;
-	font-family: 'Roboto', sans-serif;
-	color: black;
-	font-weight: bolder;
-}
-.contact-body textarea {
-	width: 80%;
-	height: 50px;
-	border: 1px solid #cac7b0;
-	font-family: 'Roboto', sans-serif;
-	font-size: 1rem;
-	color: black;
-}
-.contact-body textarea::-webkit-input-placeholder {
-	font-family: 'Roboto', sans-serif;
-	font-size: 1rem;
-	color: #cac7b0;
-}
-
-body {
-	background-color: #f8f3dd;
-	margin: 0;
-	padding: 0;
-}
-
-header {
-	background-image: url(../images/BOWLING-CROP.jpeg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 400px;
-	margin-bottom: 25px;
-}
-
 .mission-para {
 	width: 400px;
 	margin: auto;
 
-}
-
-h1 {
-	font-family: 'Damion', cursive;
-	color: #840705;
-	text-align: center;
-}
-
-p {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
-	font-size: .85em;
-	color: #cac7b0;
-	text-align: center;
-	line-height: 1.5em;
 }
 
 #our-mission {
@@ -213,15 +163,14 @@ p {
 
 }
 
+/*********************************
+NAV BAR STYLING
+*********************************/
+
 nav {
 	padding-top: 50px;
 	width: 90%;
 	margin: 0 auto;
-}
-
-h2 {
-	text-align: center;
-	font-family: 'Damion', cursive;
 }
 
 .navigation {
@@ -293,23 +242,7 @@ li a {
 .selected a {
 	color: #cac7b0;
 }
-
 a:hover {
 	color: #840705;
 }
 
-@media (min-width: 360px) {
-
-	header {
-		background-position: center;
-	}
-
-}
-
-@media (min-width: 700px) {
-
-	header {
-		background-position: center;
-	}
-
-}
