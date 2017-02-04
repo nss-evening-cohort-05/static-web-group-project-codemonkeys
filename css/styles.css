@@ -10,3 +10,63 @@ FONTS AND COLORS REFERENCE
 /* MAROON: #840705;*/
 /*GRAY: #cac7b0;*/
 /*BLACK: #000000; & WHITE: #ffffff;*/
+
+/*********************************
+CONTACT PAGE CSS
+*********************************/
+body {
+	background-color: #f8f3dd;
+}
+.contact-wrapper {
+	width: 100%;
+	background-color: white;
+}
+.contact-header {
+	width: 60%;
+	margin: auto;
+	dipslay: inline-flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.contact-line {
+	max-width: 30%;
+	height: 4px;
+	display: inline-block;
+	background-color: #840705;
+	margin: auto;
+}
+.contact-header h2 {
+	display: inline-block;
+	align-self: center;
+	margin: 15px;
+}
+.contact-body {
+	width: 60%;
+	margin: 0 auto;
+}
+.contact-body h3 {
+	font-family: 'Roboto', sans-serif;
+}
+address {
+	font-family: 'Roboto', sans-serif;
+	margin-left: 10%;
+}
+.contact-body a {
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+}
+.contact-body a:active:focus:hover {
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	font-weight: bolder;
+}
+
+
+
+
+
+
+
