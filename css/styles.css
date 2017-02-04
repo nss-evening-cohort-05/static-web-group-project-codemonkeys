@@ -1,0 +1,367 @@
+/*STYLES FOR ROOM TO SPARE*/
+
+/*********************************
+FONTS AND COLORS REFERENCE
+*********************************/
+
+/*font-family: 'Damion', cursive;*/
+/*font-family: 'Roboto', sans-serif;*/
+/*YELLOW: #f8f3dd;*/
+/* MAROON: #840705;*/
+/*GRAY: #cac7b0;*/
+
+/*BLACK: #000000; & WHITE: #ffffff;*/
+
+/*********************************
+CONTACT PAGE RESPONSIVE MEDIA QUERIES
+*********************************/
+
+/*********************************
+CONTACT PAGE CSS
+*********************************/
+
+.contact-wrapper {
+	width: 100%;
+	background-color: white;
+}
+
+header.contact-header {
+	width: 60%;
+	margin: 0 auto;
+}
+.flex-items {
+	width: 100%;
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.contact-line {
+	width: 200px;
+	height: 4px;
+	display: inline-block;
+	background-color: #840705;
+
+}
+.section-header h2 {
+	display: inline-block;
+	align-self: center;
+	margin: 15px;
+	align-text: center;
+}
+
+.contact-body {
+	width: 60%;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+.contact-body h3 {
+	font-family: 'Roboto', sans-serif;
+}
+address {
+	font-family: 'Roboto', sans-serif;
+	margin-left: 10%;
+}
+.contact-body a {
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+}
+.contact-body a:active:focus:hover {
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	font-weight: bolder;
+}
+.contact-body textarea {
+	width: 80%;
+	height: 50px;
+	border: 1px solid #cac7b0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	color: black;
+}
+.contact-body textarea::-webkit-input-placeholder {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	color: #cac7b0;
+}
+.group-pic {
+	text-align: center;
+	width: 60%;
+	display: block;
+	margin: auto;
+}
+
+
+/*BLACK: #000000; & WHITE: #ffffff;*/
+
+/*********************************
+CONTACT PAGE RESPONSIVE MEDIA QUERIES
+*********************************/
+
+/*********************************
+CONTACT PAGE CSS
+*********************************/
+
+.contact-wrapper {
+	width: 100%;
+	background-color: white;
+}
+
+header.contact-header {
+	width: 60%;
+	margin: 0 auto;
+}
+.flex-items {
+	width: 100%;
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.contact-line {
+	width: 200px;
+	height: 4px;
+	display: inline-block;
+	background-color: #840705;
+}
+.section-header h2 {
+	display: inline-block;
+	align-self: center;
+	margin: 15px;
+	align-text: center;
+}
+
+.contact-body {
+	width: 60%;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+.contact-body h3 {
+	font-family: 'Roboto', sans-serif;
+}
+address {
+	font-family: 'Roboto', sans-serif;
+	margin-left: 10%;
+}
+.contact-body a {
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+}
+.contact-body a:active:focus:hover {
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	font-weight: bolder;
+}
+.contact-body textarea {
+	width: 80%;
+	height: 50px;
+	border: 1px solid #cac7b0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	color: black;
+}
+.contact-body textarea::-webkit-input-placeholder {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	color: #cac7b0;
+}
+
+body {
+	background-color: #f8f3dd;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-image: url(../images/BOWLING-CROP.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+	margin-bottom: 25px;
+}
+
+.mission-para {
+	width: 400px;
+	margin: auto;
+
+}
+
+h1 {
+	font-family: 'Damion', cursive;
+	color: #840705;
+	text-align: center;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: .85em;
+	color: #cac7b0;
+	text-align: center;
+	line-height: 1.5em;
+}
+
+#our-mission {
+	background-color: white;
+	margin-top: px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+
+}
+
+.retailers {
+	background-color: white;
+	margin-top: px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+
+nav {
+	padding-top: 50px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Damion', cursive;
+}
+
+.navigation {
+	width: 100%;
+	height: 50px;
+	display: inline-flex;
+	align-items: baseline;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: white;
+	align-items: center;
+}
+
+.nav-bar {
+	display: flex;
+	width: 90%;
+	align-items: center;
+	margin: 0;
+	justify-content: flex-end;
+	padding-right: 20px;
+}
+
+.logo {
+	font-family: 'Damion', cursive;
+	font-size: 2em;
+	color: #840705;
+	align-items: flex-start;
+	width: 20%;
+	padding-left: 50px;
+	flex-grow: .2;
+}
+
+.logo a {
+	text-decoration: none;
+	color: #840705;
+}
+
+.logo a:hover {
+	color: #cac7b0;
+}
+
+.nav-bar li {
+	display: inline;
+	list-style: none;
+	margin: 0;
+	padding-right: 40px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.page-text {
+	background-color: #f8f3dd;
+
+}
+
+.page-text p {
+	width: 20%;
+	text-align: center;
+}
+
+li a {
+	margin-right: 10px;
+}
+
+.nav-bar a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.selected a {
+	color: #cac7b0;
+}
+
+a:hover {
+	color: #840705;
+}
+
+@media (min-width: 360px) {
+
+	header {
+		background-position: center;
+	}
+
+}
+
+@media (min-width: 700px) {
+
+	header {
+		background-position: center;
+	}
+
+}
+
+
+
+/*h2 {
+	width: 100%;
+	font-family: damion;
+	text-align: center;
+	color: #840705;*/
+/*}
+*/
+.mainbody {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.employees {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.names {
+	text-decoration: underline;
+	text-align: center;
+}
+
+caption {
+	text-align: left;
+}
+
+.border {
+	border: solid black 1px;
+	margin-left: 10px;
+	margin-right: 10px;
+	max-width: 200px;
+	height: 300px;
+
+}
+
+img.pics {
+	display: block;
+	margin: 0 auto 0 auto;
+
+
