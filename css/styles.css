@@ -54,6 +54,14 @@ p {
 
 }
 
+.retailers {
+	background-color: white;
+	margin-top: px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+
 nav {
 	padding-top: 50px;
 	width: 90%;
