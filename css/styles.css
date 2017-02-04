@@ -18,9 +18,7 @@ CONTACT PAGE RESPONSIVE MEDIA QUERIES
 /*********************************
 CONTACT PAGE CSS
 *********************************/
-body {
-	background-color: #f8f3dd;
-}
+
 .contact-wrapper {
 	width: 100%;
 	background-color: white;
@@ -38,13 +36,13 @@ header.contact-header {
 	align-items: center;
 }
 .contact-line {
-	width: 100px;
+	width: 200px;
 	height: 4px;
 	display: inline-block;
 	background-color: #840705;
 	margin-bottom: 1%;
 }
-.contact-header h2 {
+.section-header h2 {
 	display: inline-block;
 	align-self: center;
 	margin: 15px;
