@@ -10,3 +10,147 @@ FONTS AND COLORS REFERENCE
 /* MAROON: #840705;*/
 /*GRAY: #cac7b0;*/
 /*BLACK: #000000; & WHITE: #ffffff;*/
+
+body {
+	background-color: #f8f3dd;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-image: url(../images/BOWLING-CROP.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+	margin-bottom: 25px;
+}
+
+.mission-para {
+	width: 400px;
+	margin: auto;
+
+}
+
+h1 {
+	font-family: 'Damion', cursive;
+	color: #840705;
+	text-align: center;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: .85em;
+	color: #cac7b0;
+	text-align: center;
+	line-height: 1.5em;
+}
+
+#our-mission {
+	background-color: white;
+	margin-top: px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+
+}
+
+nav {
+	padding-top: 50px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Damion', cursive;
+}
+
+.navigation {
+	width: 100%;
+	height: 50px;
+	display: inline-flex;
+	align-items: baseline;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: white;
+	align-items: center;
+}
+
+.nav-bar {
+	display: flex;
+	width: 90%;
+	align-items: center;
+	margin: 0;
+	justify-content: flex-end;
+	padding-right: 20px;
+}
+
+.logo {
+	font-family: 'Damion', cursive;
+	font-size: 2em;
+	color: #840705;
+	align-items: flex-start;
+	width: 20%;
+	padding-left: 50px;
+	flex-grow: .2;
+}
+
+.logo a {
+	text-decoration: none;
+	color: #840705;
+}
+
+.logo a:hover {
+	color: #cac7b0;
+}
+
+.nav-bar li {
+	display: inline;
+	list-style: none;
+	margin: 0;
+	padding-right: 40px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.page-text {
+	background-color: #f8f3dd;
+
+}
+
+.page-text p {
+	width: 20%;
+	text-align: center;
+}
+
+li a {
+	margin-right: 10px;
+}
+
+.nav-bar a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.selected a {
+	color: #cac7b0;
+}
+
+a:hover {
+	color: #840705;
+}
+
+@media (min-width: 360px) {
+
+	header {
+		background-position: center;
+	}
+
+}
+
+@media (min-width: 700px) {
+
+	header {
+		background-position: center;
+	}
+
+}
