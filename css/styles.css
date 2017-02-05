@@ -17,14 +17,19 @@ MEDIA QUERIES
 *********************************/
 
 @media (min-width: 360px) {
+
 	header {
 		background-position: center;
 	}
+
 }
+
 @media (min-width: 700px) {
+
 	header {
 		background-position: center;
 	}
+
 }
 
 /*********************************
@@ -39,11 +44,13 @@ p {
 	text-align: center;
 	line-height: 1.5em;
 }
+
 h1 {
 	font-family: 'Damion', cursive;
 	color: #840705;
 	text-align: center;
 }
+
 body {
 	background-color: #f8f3dd;
 	margin: 0;
@@ -57,23 +64,30 @@ header {
 	height: 400px;
 	margin-bottom: 25px;
 }
+
 h2 {
 	text-align: center;
 	font-family: 'Damion', cursive;
+	color: #840705;
 }
+
+
 
 /*********************************
 CONTACT PAGE CSS
 *********************************/
 
+
 .contact-wrapper {
 	width: 100%;
 	background-color: white;
 }
+
 .contact-header {
 	width: 60%;
 	margin: 0 auto;
 }
+
 .flex-items {
 	width: 100%;
 	display: inline-flex;
@@ -81,13 +95,15 @@ CONTACT PAGE CSS
 	justify-content: center;
 	align-items: center;
 }
+
 .contact-line {
-	width: 200px;
-	height: 4px;
+	width: 100px;
+	height: 3px;
 	display: inline-block;
 	background-color: #840705;
 
 }
+
 .section-header h2 {
 	display: inline-block;
 	align-self: center;
@@ -100,24 +116,29 @@ CONTACT PAGE CSS
 	margin: 0 auto;
 	padding-bottom: 30px;
 }
+
 .contact-body h3 {
 	font-family: 'Roboto', sans-serif;
 }
+
 address {
 	font-family: 'Roboto', sans-serif;
 	margin-left: 10%;
 }
+
 .contact-body a {
 	text-decoration: none;
 	font-family: 'Roboto', sans-serif;
 	color: black;
 }
+
 .contact-body a:active:focus:hover {
 	text-decoration: none;
 	font-family: 'Roboto', sans-serif;
 	color: black;
 	font-weight: bolder;
 }
+
 .contact-body textarea {
 	width: 80%;
 	height: 50px;
@@ -126,22 +147,26 @@ address {
 	font-size: 1rem;
 	color: black;
 }
+
 .contact-body textarea::-webkit-input-placeholder {
 	font-family: 'Roboto', sans-serif;
 	font-size: 1rem;
 	color: #cac7b0;
 }
+
 .group-pic {
 	text-align: center;
 	width: 60%;
 	display: block;
 	margin: auto;
 }
+
 .section-header {
 	width: 60%;
 	margin: 0 auto;
 	display: block;
 }
+
 .new-flex-items {
 	width: 100%;
 	display: inline-flex;
@@ -149,6 +174,7 @@ address {
 	justify-content: center;
 	align-items: center;
 }
+
 .mission-para {
 	width: 400px;
 	margin: auto;
@@ -157,7 +183,7 @@ address {
 
 #our-mission {
 	background-color: white;
-	margin-top: px;
+	margin-bottom: 25px;
 	padding-top: 5px;
 	padding-bottom: 10px;
 
@@ -245,3 +271,19 @@ li a {
 a:hover {
 	color: #840705;
 }
+
+.retailers {
+	background-color: white;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+footer {
+	background-color: #840705;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	text-align: center;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
