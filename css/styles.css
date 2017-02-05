@@ -324,13 +324,13 @@ a:hover {
 
 
 
-/*h2 {
+.textcolor {
 	width: 100%;
 	font-family: damion;
 	text-align: center;
-	color: #840705;*/
-/*}
-*/
+	color: #840705;
+}
+
 .mainbody {
 	width: 80%;
 	margin: 0 auto;
@@ -339,7 +339,15 @@ a:hover {
 .employees {
 	display: flex;
 	justify-content: space-between;
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: white;
+}
 
+.extra {
+	background-color: white;
 }
 
 .names {
@@ -355,6 +363,8 @@ caption {
 	border: solid black 1px;
 	margin-left: 10px;
 	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	max-width: 200px;
 	height: 300px;
 
@@ -363,5 +373,6 @@ caption {
 img.pics {
 	display: block;
 	margin: 0 auto 0 auto;
+
 
 
