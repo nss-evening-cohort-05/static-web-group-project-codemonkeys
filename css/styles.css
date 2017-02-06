@@ -292,3 +292,13 @@ footer {
 	padding-bottom: 35px;
 }
 
+.product {
+	display: inline-flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	width: 30%;
+	align-items: center;
+}
+.product-pic {
+	max-width: 100%;
+}
