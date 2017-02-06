@@ -155,9 +155,10 @@ address {
 
 .group-pic {
 	text-align: center;
-	width: 60%;
+	width: 40%;
 	display: block;
 	margin: auto;
+	margin-bottom: 35px;
 }
 
 .section-header {
@@ -276,6 +277,11 @@ a:hover {
 	padding-top: 5px;
 	padding-bottom: 10px;
 }
+.about-us {
+	width: 400px;
+	margin: auto;
+	padding-bottom: 15px;
+}
 
 footer {
 	background-color: #840705;
@@ -286,3 +292,13 @@ footer {
 	padding-bottom: 35px;
 }
 
+.product {
+	display: inline-flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	width: 30%;
+	align-items: center;
+}
+.product-pic {
+	max-width: 100%;
+}
