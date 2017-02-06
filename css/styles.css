@@ -349,7 +349,6 @@ MEDIA QUERIES
 
 }
 
-
 @media (max-width: 800px) {
 
 	.product {
@@ -463,5 +462,58 @@ MEDIA QUERIES
 .contact-line {
 	display: none;
 }
+/*****************************
+employee page
+*****************************/
+
+.textcolor {
+	width: 100%;
+	font-family: damion;
+	text-align: center;
+	color: #840705;
+}
+
+.mainbody {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.employees {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: white;
+}
+
+.extra {
+	background-color: white;
+}
+
+.names {
+	text-decoration: underline;
+	text-align: center;
+}
+
+caption {
+	text-align: left;
+}
+
+.border {
+	border: solid black 1px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	max-width: 200px;
+	height: 300px;
+
+}
+
+img.pics {
+	display: block;
+	margin: 0 auto 0 auto;
 
 
